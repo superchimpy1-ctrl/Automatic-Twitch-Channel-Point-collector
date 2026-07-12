@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<style>
+  body { font-family: sans-serif; width: 260px; padding: 12px; margin: 0; }
+  h1 { font-size: 14px; margin: 0 0 10px; }
+  .row { display: flex; justify-content: space-between; margin-bottom: 6px; font-size: 13px; }
+  .label { color: #555; }
+  .value { font-weight: 600; }
+  .toggle-row { display: flex; align-items: center; justify-content: space-between; margin: 10px 0; padding-top: 8px; border-top: 1px solid #eee; }
+  ul { list-style: none; padding: 0; margin: 8px 0 0; max-height: 140px; overflow-y: auto; font-size: 11px; color: #666; }
+  li { padding: 3px 0; border-bottom: 1px solid #f0f0f0; }
+  .empty { color: #999; font-size: 11px; padding: 4px 0; }
+</style>
+</head>
+<body>
+  <h1>Twitch Bonus Points</h1>
+  <div class="row"><span class="label">Balance</span><span class="value" id="points">–</span></div>
+  <div class="row"><span class="label" id="channelLabel">Collected on this channel</span><span class="value" id="channelPoints">–</span></div>
+  <div class="row"><span class="label">Total collected (all streams)</span><span class="value" id="total">0</span></div>
+  <div class="row"><span class="label">Claims this session</span><span class="value" id="count">0</span></div>
+  <div class="toggle-row">
+    <span class="label">Auto-claim</span>
+    <input type="checkbox" id="toggle" />
+  </div>
+  <ul id="log"></ul>
+  <script src="popup.js"></script>
+</body>
+</html>
