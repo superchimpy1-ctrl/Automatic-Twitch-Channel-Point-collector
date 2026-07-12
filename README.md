@@ -1,3 +1,4 @@
+Only works on fire fox.
 # Twitch Bonus Points Collector
 
 A small Firefox extension that watches a Twitch stream and automatically
