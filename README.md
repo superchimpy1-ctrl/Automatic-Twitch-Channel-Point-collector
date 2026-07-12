@@ -21,7 +21,7 @@ which are unloaded every time Firefox restarts.
 1. Clone or download this repo
 2. Open `about:debugging#/runtime/this-firefox` in Firefox
 3. Click **Load Temporary Add-on**
-4. Select `twitch-bonus-points-repo.zip` from the cloned repo
+4. Select `twitch-bonus-points-repo-v2.zip` from the cloned repo
 5. Open a live twitch.tv stream — the toolbar icon opens the popup
 
 > **You'll need to repeat step 2–4 every time you restart Firefox.** For a
